@@ -56,6 +56,7 @@ html {
 }
 
 body {
+	overflow: hidden;
 	font-size: 17px;
 	line-height: 1.5
 }
@@ -3440,6 +3441,9 @@ h2.press-item-title {
 		width: 80%;
 		margin: 0 10%
 	}
+	.hotels-section{
+		flex-direction: column-reverse;
+	}
 }
 
 .btn,
@@ -3871,14 +3875,9 @@ input.f-100 {
 .plume-icon-wondering:before {
 	content: "\e9fb"
 }
-.hotels-section{
+/* .hotels-section{
   display: flex !important;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-}
-@media screen and (max-width: 600px) {
-  .hotels-section{
-    flex-direction: column-reverse;
-  }
-}
+} */
